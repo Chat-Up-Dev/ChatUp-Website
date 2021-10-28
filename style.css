@@ -1,0 +1,38 @@
+body {
+  font-family: 'Josefin Sans';
+  background: rgb(53, 53, 53);
+}
+
+.sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #2B847C;
+  color: white;
+  text-align: center;
+  box-shadow: 1px 1px 99px #2B847C;
+}
+
+.spacement {
+  height: 200px;
+}
+
+.text-container {
+  background: #D1E7E4;
+  text-align: left;
+  padding: 40px;
+  max-width: 400px;
+  box-shadow: 1px 1px 99px #D1E7E4;
+}
+
+.text-container > p {
+  font-weight: 700;
+}
+
+hr {
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  border-bottom: 1px solid black;
+}
